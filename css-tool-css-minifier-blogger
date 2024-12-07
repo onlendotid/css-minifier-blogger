@@ -1,0 +1,67 @@
+#css-tool {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #css-tool textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: monospace;
+    margin-top: 10px;
+    resize: vertical;
+  }
+
+  #css-tool .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  #css-tool button {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #css-tool button:hover {
+    background-color: #45a049;
+  }
+
+  #css-tool .beautify-btn {
+    background-color: #007BFF;
+  }
+
+  #css-tool .beautify-btn:hover {
+    background-color: #0066cc;
+  }
+
+  #css-tool .copy-btn {
+    background-color: #FFC107;
+    color: #333;
+  }
+
+  #css-tool .copy-btn:hover {
+    background-color: #e0a800;
+  }
+
+  #css-tool .clear-btn {
+    background-color: #f44336;
+  }
+
+  #css-tool .clear-btn:hover {
+    background-color: #d32f2f;
+  }
